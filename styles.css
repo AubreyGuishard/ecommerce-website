@@ -4,7 +4,65 @@
     box-sizing: inherit;
 }
 
+header{
+    padding: 12px 84px;
+    box-shadow: 0px 3px 7px #707070;
+    /* position: fixed; */
+    /* width: 100%; */
+    /* top: 0; */
+    /* bottom: 0; */
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 20px;
+}
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+}
+
+.flex-container {
+    display:flex;
+    
+}
+.justify-content{
+    justify-content: space-evenly;
+
+}    
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-baseline{
+    align-items: baseline;
+
+}
+
+.logo{
+    font-size: 19px;
+    letter-spacing: 4px;
+}
+
+.logo img{
+    width: 26px;
+}
+
+.pottery-picture{
+    
+}
+.border-bottom{
+    border-bottom: black solid 3px;
+    padding-bottom: 6px;
+
+}
+
+.product-card{
+
+}
+
+.product-card img{
+    width: 200px;
+    height: 200px;
 }
